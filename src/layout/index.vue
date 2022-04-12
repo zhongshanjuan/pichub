@@ -1,7 +1,9 @@
 <template>
   <n-layout position="absolute">
-    <n-layout-header style="height: 64px; padding: 24px;" bordered>Vue3-Naive-Admin</n-layout-header>
-    <n-layout has-sider position="absolute" style="top: 64px; bottom: 64px;">
+    <n-layout-header style="height: 64px; padding: 24px" bordered
+      >Pic Hub</n-layout-header
+    >
+    <n-layout has-sider position="absolute" style="top: 64px; bottom: 64px">
       <n-layout-sider bordered>
         <vna-sidebar />
       </n-layout-sider>
@@ -9,12 +11,15 @@
         <router-view />
       </n-layout>
     </n-layout>
-    <n-layout-footer bordered position="absolute" style="height: 64px; padding: 24px; text-align: center;">
-      copyright zhhbstudio
+    <n-layout-footer
+      bordered
+      position="absolute"
+      style="height: 64px; padding: 24px; text-align: center"
+    >
+      copyright
     </n-layout-footer>
   </n-layout>
 </template>
 <script setup>
-import VnaSidebar from './components/Sidebar.vue'
-
+import VnaSidebar from "./components/Sidebar.vue";
 </script>
