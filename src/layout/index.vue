@@ -16,7 +16,7 @@
       position="absolute"
       style="height: 64px; padding: 24px; text-align: center"
     >
-      copyright
+      <!-- copyright -->
     </n-layout-footer>
   </n-layout>
 </template>

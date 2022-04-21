@@ -57,6 +57,12 @@ const routes = [
         name: "pinia",
         label: "pinia",
       },
+      {
+        path: "pic",
+        component: () => import("./views/pic/pic.vue"),
+        name: "pic",
+        label: "pic",
+      },
     ],
   },
 ];

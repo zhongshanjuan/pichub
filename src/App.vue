@@ -1,9 +1,5 @@
 <template>
-  <n-config-provider
-    :theme="darkTheme"
-    :locale="zhCN"
-    :date-locale="dateZhCN"
-  >
+  <n-config-provider :theme="lightTheme" :locale="zhCN" :date-locale="dateZhCN">
     <n-message-provider>
       <router-view />
     </n-message-provider>
@@ -11,11 +7,7 @@
 </template>
 
 <script setup>
-
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
-
-import { darkTheme, zhCN, dateZhCN } from 'naive-ui'
+import { darkTheme, lightTheme, zhCN, dateZhCN } from "naive-ui";
 </script>
 
 <style lang="scss">
@@ -69,5 +61,4 @@ body {
   /* Misc */
   user-select: none;
 }
-
 </style>
